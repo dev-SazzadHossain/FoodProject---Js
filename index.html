@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link of fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link of css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-right">
+            <h1 id="active"><span class="text">L</span>ogo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" id="header">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#" id="searchElement">Search</a></li>
+                <li><a href="#" id="loginBtn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- login from and search bar -->
+    <div class="login-from" id="from">
+        <h2>Login-From</h2>
+        <div class="input-filed">
+            <input type="text" name="" id="">
+        </div>
+        <div class="input-filed">
+            <input type="password" name="" id="">
+        </div>
+        <div class="button">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+    <div class="searchBtn" id="search">
+        <input type="search" name="" id="">
+    </div>
+    <!-- login from and search bar -->
+
+    <!-- slider section -->
+    <div class="container">
+        <div class="selider">
+            <div class="img">
+                <i id="leftBtn" class="fa-solid fa-angle-left"></i>
+                <img class="images" id="img1" src="images/cover1.jpg" alt="">
+                <i id="rightBtn" class="fa-solid fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+    <!-- slider section -->
+
+
+    <div class="container">
+        <div class="left-site">
+            <div class="click-button">
+                <button id="show" onclick="show()">Show Now</button>
+            </div>
+            <div class="click-button">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="right-site">
+            <div class="image-box" id="image-box">
+
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <button onclick="getPic()">ShowNowPic</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

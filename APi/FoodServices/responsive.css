@@ -1,0 +1,25 @@
+@media (min-width: 200px) and (max-width: 768px) {
+    .foodWrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    input#inputField {
+        width: auto;
+        text-align: center;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    header {
+        text-align: center;
+
+    }
+
+    .navList {
+        height: auto;
+    }
+}

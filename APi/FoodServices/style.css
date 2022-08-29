@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(227, 234, 234);
+    box-shadow: 0 3px 2px 1px rgb(15, 15, 15);
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.navList {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.heading {
+    text-transform: capitalize;
+    font-size: 3rem;
+    text-shadow: 0 2px 5px red;
+    color: white;
+}
+
+input#inputField {
+    padding: 7px;
+    width: 200px;
+    border: none;
+    outline: none;
+    background: royalblue;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button {
+    padding: 7px 15px;
+    border: none;
+    outline: none;
+    background: #4150ff;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: rgb(8, 81, 215);
+}
+
+#foods-Item {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 2px 2px rgb(54, 54, 49);
+
+}
+
+.images {
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+.images img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.dsc {
+    padding: 10px;
+    width: 300px;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.btn {
+    padding-bottom: 10px;
+}
+
+.btn button {
+    padding: 8px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.foodWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}

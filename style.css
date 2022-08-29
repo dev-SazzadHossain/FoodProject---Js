@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-shadow {
+    box-shadow: 0, 0, 5px rgba(red, green, blue, alpha);
+}
+
+img {
+    width: 100%;
+}
+
+/* body */
+body {
+    scroll-behavior: smooth;
+    background-color: beige;
+    color: black;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 19px rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.header-right {
+    margin-left: 30px;
+    text-shadow: 5px 0 6px rgb(77, 74, 74);
+}
+
+span.text {
+    font-size: 3rem;
+    color: rgb(217, 39, 39);
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 5px 20px;
+    transition: .9s;
+    transform-origin: center;
+
+}
+
+nav ul li a {
+    background-color: rgb(0, 0, 0);
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 5px rgb(60, 69, 60);
+
+}
+
+li:hover {
+    transform: rotate(360deg);
+}
+
+/* from style */
+.login-from {
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    background: rgb(118, 141, 118);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 20%;
+    display: none;
+    right: -353px;
+    transition: .4s;
+}
+
+.login-from h2 {
+    font-size: 2rem;
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    text-shadow: 5px 0 3px red;
+}
+
+.input-filed {
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 7px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: black;
+    color: whire;
+    color: white;
+    font-size: 1.1rem;
+}
+
+input[type="password"] {
+    padding: 7px 0px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: black;
+    color: whire;
+    color: white;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 6px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    text-shadow: 5px 0 3px red;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+button:hover {
+    background-color: beige;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 0 3px red;
+}
+
+.button {
+    padding: 10px 0px;
+
+}
+
+/* search */
+input[type="search"] {
+    padding: 8px 8px;
+    width: 230px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 9px;
+    box-shadow: 0 0 5px black;
+}
+
+.searchBtn {
+    width: 265px;
+    background: white;
+    height: 48px;
+    text-align: center;
+    border-radius: 5px;
+    display: none;
+    top: 21%;
+    right: -400px;
+    position: absolute;
+}
+
+.active {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 19px rgb(0, 0, 0);
+    transition: .5s;
+    cursor: pointer;
+    transition-delay: .2s;
+}
+
+/* arrow */
+i.fa-solid.fa-angle-left {
+    font-size: 4rem;
+    background: transparent padding: 5px 20px;
+    top: 65%;
+    transform: translate(20%, 50%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 2px 3px #e9adad;
+    position: absolute;
+
+}
+
+i.fa-solid.fa-angle-left:hover {
+    background-color: goldenrod;
+    transition: .3s;
+    cursor: pointer;
+}
+
+i.fa-solid.fa-angle-right {
+    font-size: 4rem;
+    background: transparent padding: 5px 20px;
+    top: 65%;
+    right: 1%;
+    transform: translate(20%, 50%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 2px 3px #e9adad;
+    position: absolute;
+}
+
+i.fa-solid.fa-angle-right:hover {
+    background-color: goldenrod;
+    transition: .3s;
+    cursor: pointer;
+
+}
